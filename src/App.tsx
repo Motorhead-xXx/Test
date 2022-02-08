@@ -27,8 +27,6 @@ function App() {
                 <Route path={"/"} element={<Users/>}/>
                 <Route path={"login"} element={<Login/>}/>
                 <Route path={"users-list/*"} element={<Users/>}/>
-                <Route path="/404" element={<h1 className="pageNotFound"> 404: PAGE NOT FOUND </h1>}/>
-                <Route path="*" element={<Navigate to="/404"/>}/>
             </Routes>
         </div>
     );
