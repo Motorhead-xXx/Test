@@ -1,0 +1,32 @@
+.container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+
+  .wrapperForm {
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+
+    .buttonGroupForm {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 400px;
+    }
+
+    .block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+
+}

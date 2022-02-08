@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+  .paper {
+    background: #f4f6fa;
+    width: 550px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    .formGroup {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .textFieldContainer {
+        display: flex;
+        flex-direction: column;
+
+        .textField {
+          width: 400px;
+          margin-top: 20px;
+        }
+        .error{
+          height: 15px;
+        }
+      }
+
+      .loginButton {
+        border-radius: 20px;
+        width: 200px;
+        margin-top: 20px;
+      }
+    }
+
+
+  }
+}

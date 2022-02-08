@@ -1,0 +1,43 @@
+.container {
+  background: #a4a4a4;
+  min-height: 30vh;
+  margin-top: 20px;
+  padding: 20px;
+
+  .sortList {
+    display: grid;
+    grid-template-columns: 3fr 6fr 0.1fr;
+    align-items: center;
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 16fr 0.1fr;
+    background: #f4f6fa;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 2px;
+    cursor: pointer;
+
+    .title {
+      font-weight: 600;
+      display: flex;
+    }
+
+    .nameCityClass {
+      display: grid;
+      grid-template-columns: 3fr 6fr;
+      height: 100%;
+      align-items: center;
+    }
+
+    .deleteRow {
+      display: flex;
+      width: 60px;
+      justify-content: end;
+    }
+  }
+
+}
